@@ -3,8 +3,11 @@
 // CommonJS 방식으로 모듈 가져오기
 const ForExam = require('../main');
 
-// new 키워드를 사용해 ForExam 인스턴스를 생성하고, 변수 Q1에 할당
-const Q1 = new ForExam();
+//* Q1. forExam.problem1의 배열의 모든 요소를 대문자로 변환하시오.
+// ForExam 클래스의 새로운 인스턴스를 생성하고 forExam 변수에 할당
+const forExam = new ForExam();
 
-// 디버깅을 위한 확인 콘솔을 출력
-console.log(Q1);
+// 배열 메서드 map()을 사용해 problem1 배열의 모든 요소를 대문자로 변환
+forExam.problem1.map(function (item) {
+  return item.toUpperCase();
+})
