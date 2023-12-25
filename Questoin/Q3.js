@@ -7,4 +7,7 @@ const ForExam = require('../main');
 // forExam 변수에 할당
 const forExam = new ForExam();
 
+// 초기 상태를 콘솔로 확인
+console.log(forExam.problem3); //* [ '피카츄', '라이츄', '꼬부기' ]
+
 //* Q3. forExam.problem3의 배열의 모든 요소를 하나의 문자열로 합치시오.
