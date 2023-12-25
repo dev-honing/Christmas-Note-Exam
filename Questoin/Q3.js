@@ -11,5 +11,9 @@ const forExam = new ForExam();
 console.log(forExam.problem3); //* [ '피카츄', '라이츄', '꼬부기' ]
 
 //* Q3. forExam.problem3의 배열의 모든 요소를 하나의 문자열로 합치시오.
-// Array.join() 메서드를 사용해 배열의 모든 요소를 하나의 문자열로 합침
-forExam.problem3.join('');
+// Array.join() 메서드를 사용해 배열의 모든 요소를 하나의 문자열로 합치고,
+// Q3에 할당
+const Q3 = forExam.problem3.join('');
+
+// Q3에 할당된 문자열을 출력
+console.log(Q3);
