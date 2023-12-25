@@ -12,7 +12,7 @@ class ForExam {
 
   // 데이터를 초기화하는 initData() 메서드를 정의
   initData() {
-    // 설정 객체 생성
+    // 설정 객체를 생성
     const config = {
       baseArray: ['피카츄', '라이츄', '꼬부기'],
       specialProblems: [10, 16, 17, 18, 19, 20],
