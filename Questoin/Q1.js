@@ -7,6 +7,9 @@ const ForExam = require('../main');
 // forExam 변수에 할당
 const forExam = new ForExam();
 
+// 초기 상태를 콘솔로 확인
+console.log(forExam.problem1); //* [ '피카츄', '라이츄', '꼬부기' ]
+
 //* Q1. forExam.problem1의 배열의 모든 요소를 대문자로 변환하시오.
 // Array.map() 메서드를 사용해서 새로운 배열을 생성하고,
 // Q1에 할당
