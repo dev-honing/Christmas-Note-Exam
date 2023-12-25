@@ -16,4 +16,4 @@ const Q2 = forExam.problem2.filter(function (item) {
 });
 
 // Q2에 할당된 필터링된 배열을 출력
-console.log(Q2);
+console.log(Q2); //* [ '라이츄' ]
