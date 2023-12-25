@@ -67,8 +67,5 @@ class ForExam {
   }
 }
 
-// ForExam 클래스의 인스턴스를 생성
-let forExam = new ForExam();
-
-// 생성된 인스턴스를 콘솔에 출력
-console.dir(forExam);
+// CommonJS 방식으로 export
+module.exports = ForExam;
