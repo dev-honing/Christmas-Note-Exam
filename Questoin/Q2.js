@@ -7,6 +7,9 @@ const ForExam = require('../main');
 // forExam 변수에 할당
 const forExam = new ForExam();
 
+// 초기 상태를 콘솔로 확인
+console.log(forExam.problem2); //* [ '피카츄', '라이츄', '꼬부기' ]
+
 //* Q2. forExam.problem2의 배열에서 이름에 ‘이’가 포함된 포켓몬만 필터링 하시오.
 // Array.filter() 메서드를 사용해 필터링된 새로운 배열을 생성하고,
 // Q2에 할당
