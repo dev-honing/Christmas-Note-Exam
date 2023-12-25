@@ -16,4 +16,4 @@ console.log(forExam.problem3); //* [ '피카츄', '라이츄', '꼬부기' ]
 const Q3 = forExam.problem3.join('');
 
 // Q3에 할당된 문자열을 출력
-console.log(Q3);
+console.log(Q3); //* 피카츄라이츄꼬부기
