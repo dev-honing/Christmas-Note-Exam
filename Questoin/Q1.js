@@ -16,4 +16,4 @@ const Q1 = forExam.problem1.map(function (item) {
 })
 
 // Q1에 할당된 새로운 배열을 출력
-console.log(Q1);
+console.log(Q1); //* [ '피카츄', '라이츄', '꼬부기' ]
