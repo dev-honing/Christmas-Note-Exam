@@ -11,3 +11,6 @@ const forExam = new ForExam();
 forExam.problem1.map(function (item) {
   return item.toUpperCase();
 })
+
+// 디버깅을 위한 확인 콘솔을 출력
+console.log(forExam.problem1); //* [ '피카츄', '라이츄', '꼬부기' ]
