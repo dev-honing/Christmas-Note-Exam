@@ -49,4 +49,20 @@ class ForExam {
     // 특별한 문제가 아닌 경우, 기본 배열의 복사본을 반환
     return baseArray.slice();
   }
+
+  // assembleHTMLTags() 메서드를 정의
+  assembleHTMLTags(htmlTagProblems) {
+    for (let problem of htmlTagProblems) {
+      // 현재 문제의 각 항목에 HTML 태그가 포함되어 있는지 확인
+      this['problem' + problem] = this['problem' + problem].map(item => {
+        // 항목이 HTML 태그를 포함하고 있는 경우
+        if(item.includes('<')) {
+          // 그대로를 반환
+          return item;
+        }
+        // 그렇지 않으면 <li> 태그로 감싸서 반환
+        return `<li>${item}</li>`
+      });
+    }
+  }
 }
