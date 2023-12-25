@@ -37,4 +37,16 @@ class ForExam {
     // HTML 태그와 관련된 문제를 조립하는 메서드를 호출
     this.assembleHTMLTags(config.htmlTagProblems);
   }
+
+  // generateProblemData() 메서드를 정의
+  generateProblemData(problemNumber, baseArray, specialProblems) {
+    // 주어진 문제 번호가 특별한 문제에 속하는 경우
+    if (specialProblems.includes(problemNumber)) {
+      // 기본 배열과 '이브이'를 합쳐서 반환
+      return [...baseArray, '이브이'];
+    }
+
+    // 특별한 문제가 아닌 경우, 기본 배열의 복사본을 반환
+    return baseArray.slice();
+  }
 }
